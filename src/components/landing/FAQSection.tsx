@@ -40,11 +40,6 @@ const faqs = [
       "O diagnóstico preliminar gratuito é uma reunião consultiva onde avaliamos o cenário atual da sua empresa em relação à NR-1. Identificamos o nível de risco (Alto, Médio ou Baixo) e apresentamos as principais ações necessárias para adequação, sem compromisso.",
   },
   {
-    question: "Quanto tempo leva para implementar a conformidade completa?",
-    answer:
-      "O tempo varia de acordo com o porte e complexidade da empresa. Em média, o processo completo de diagnóstico, implementação e validação leva de 3 a 6 meses. Por isso, é fundamental iniciar o quanto antes para garantir a conformidade até o prazo legal.",
-  },
-  {
     question: "A SSCON atende empresas de quais regiões?",
     answer:
       "Atendemos empresas em todo o Brasil e no Mercosul. Nossa consultoria pode ser realizada de forma presencial ou remota, adaptando-se às necessidades e localização de cada cliente.",
