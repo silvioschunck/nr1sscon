@@ -25,8 +25,8 @@ const cards = [
     details: [
       "Prazo: 26 de maio de 2026",
       "Fiscalização pelo MTE",
-      "Auditorias surpresa",
-      "Denúncias trabalhistas",
+      "Riscos de Denúncias",
+      "Ações Trabalhistas e multas",
     ],
     accent: "urgency",
   },

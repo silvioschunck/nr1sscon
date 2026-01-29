@@ -21,9 +21,9 @@ const HeroSection = () => {
           transition={{ duration: 0.6 }}
           className="max-w-3xl mx-auto mb-8"
         >
-          <div className="urgency-banner px-4 py-3 rounded-lg flex items-center justify-center gap-2 text-sm md:text-base font-medium animate-urgency-pulse">
+          <div className="urgency-banner px-4 py-3 rounded-lg flex items-center justify-center gap-2 text-base md:text-lg font-medium animate-urgency-pulse">
             <AlertTriangle className="w-5 h-5" />
-            <span>A partir de maio de 2026 toda empresa CLT deverá mapear riscos psicossociais no PGR</span>
+            <span>A partir de Maio de 2026 todas empresas precisam se adequar às atualizações da NR-1</span>
           </div>
         </motion.div>
 
