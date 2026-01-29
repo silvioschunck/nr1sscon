@@ -68,25 +68,16 @@ const VideoSection = () => {
                 className="w-full h-full object-cover"
                 poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1920' height='1080' viewBox='0 0 1920 1080'%3E%3Crect fill='%231a365d' width='1920' height='1080'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='Inter, sans-serif' font-size='48'%3ESSCON Consultoria%3C/text%3E%3C/svg%3E"
                 playsInline
-                controls={isPlaying}
+                controls
+                autoPlay
+                muted
+                loop
+                preload="auto"
                 onPlay={() => setIsPlaying(true)}
               >
                 <source src="https://sscon.com.br/imagens/video1.mp4" type="video/mp4" />
                 Seu navegador não suporta vídeos HTML5.
               </video>
-            )}
-
-            {/* Play Button Overlay */}
-            {!isPlaying && (
-              <div className="absolute inset-0 bg-foreground/40 flex items-center justify-center">
-                <button
-                  onClick={handlePlayClick}
-                  className="group flex items-center justify-center w-20 h-20 md:w-24 md:h-24 rounded-full bg-white/95 hover:bg-white transition-all duration-300 shadow-2xl hover:scale-110"
-                  aria-label="Reproduzir vídeo"
-                >
-                  <Play className="w-8 h-8 md:w-10 md:h-10 text-primary ml-1" />
-                </button>
-              </div>
             )}
           </div>
 

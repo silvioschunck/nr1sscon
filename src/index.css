@@ -147,15 +147,26 @@
   }
 
   .btn-urgency {
-    @apply text-urgency-foreground font-bold px-8 py-4 rounded-lg transition-all duration-200;
+    @apply text-urgency-foreground font-bold px-8 py-4 rounded-lg transition-all duration-200 relative;
     background: var(--gradient-urgency);
     box-shadow: var(--shadow-urgency);
+    animation: btn-urgency-pulse 2s ease-in-out infinite;
   }
 
   .btn-urgency:hover {
     @apply bg-[hsl(var(--urgency-dark))];
     transform: translateY(-2px);
     box-shadow: 0 6px 20px hsl(0 75% 55% / 0.45);
+    animation: none;
+  }
+
+  @keyframes btn-urgency-pulse {
+    0%, 100% { 
+      box-shadow: var(--shadow-urgency), 0 0 0 0 hsl(0 75% 55% / 0.4);
+    }
+    50% { 
+      box-shadow: var(--shadow-urgency), 0 0 0 8px hsl(0 75% 55% / 0);
+    }
   }
 
   /* Corporate Card Style */

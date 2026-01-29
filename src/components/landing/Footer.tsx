@@ -32,7 +32,7 @@ const Footer = () => {
               Agendar Diagnóstico
             </a>
             <p className="text-sm text-background/50 text-center md:text-right">
-              30+ anos protegendo empresas brasileiras
+              30+ anos ajudando empresas no Brasil e Mercosul
             </p>
           </div>
         </div>
