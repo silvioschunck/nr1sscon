@@ -21,7 +21,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6 }}
           className="max-w-3xl mx-auto mb-8"
         >
-          <div className="urgency-banner px-4 py-3 rounded-lg flex items-center justify-center gap-2 text-base md:text-lg font-medium animate-urgency-pulse">
+          <div className="bg-white px-4 py-3 rounded-lg flex items-center justify-center gap-2 text-base md:text-lg font-semibold text-[hsl(var(--urgency))] shadow-md">
             <AlertTriangle className="w-5 h-5" />
             <span>A partir de Maio de 2026 todas empresas precisam se adequar às atualizações da NR-1</span>
           </div>
