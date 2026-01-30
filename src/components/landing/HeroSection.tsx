@@ -40,7 +40,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-lg md:text-xl text-white/85 max-w-2xl mx-auto leading-relaxed">
             Fiscalizações e penalidades da NR-1 estão próximas.
-            <span className="font-semibold text-white"> O tempo para adequação está acabando.</span>
+            <span className="font-semibold text-white"> O tempo para adequação está acabando. Fique tranquilo, nós vamos te ajudar!</span>
           </p>
         </motion.div>
 
