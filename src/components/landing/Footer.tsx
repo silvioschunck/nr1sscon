@@ -27,7 +27,7 @@ const Footer = () => {
               className="btn-footer-cta group"
             >
               <Video className="w-4 h-4" />
-              Participar do Webinário
+              Participe do Webinário e Faça seu Diagnóstico Gratuito
               <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" />
             </a>
             <p className="text-sm text-background/50 text-center md:text-right">
