@@ -116,7 +116,7 @@ const DiagnosticSection = () => {
                   <div>
                     <h4 className="font-semibold text-foreground">Risco Baixo</h4>
                     <p className="text-sm text-muted-foreground">
-                      Empresa protegida - pequenos ajustes de documentação
+                      O que fazer para manter sua empresa dentro dos padrões
                     </p>
                   </div>
                 </div>
