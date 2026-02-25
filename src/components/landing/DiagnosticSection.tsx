@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { CheckCircle2, ArrowRight, Shield, Clock, AlertTriangle } from "lucide-react";
+import { CheckCircle2, ArrowRight, Shield, Clock, AlertTriangle, Video } from "lucide-react";
 
 const benefits = [
   "Mapeamento do nível de risco: Alto, Médio ou Baixo",
@@ -32,10 +32,14 @@ const DiagnosticSection = () => {
                 Diagnóstico Preliminar
                 <span className="text-primary"> Gratuito</span>
               </h2>
-              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Em uma reunião de 30 minutos, nossos especialistas vão mapear o
-                nível de risco da sua empresa e apresentar um panorama claro da
-                sua exposição legal.
+              <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+                Realizamos um diagnóstico preliminar para apontar o nível de risco
+                da sua empresa neste momento e indicar os próximos passos para a
+                adequação à NR-1.
+              </p>
+              <p className="text-base text-muted-foreground mb-6 leading-relaxed">
+                <strong className="text-foreground">Participe do nosso webinário gratuito</strong> e entenda
+                como proteger sua empresa das penalidades que se aproximam.
               </p>
 
               <ul className="space-y-3 mb-8">
@@ -57,17 +61,14 @@ const DiagnosticSection = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 0.6 }}
-                href="https://sscon.com.br/links/site"
+                href="https://sscon.com.br/webinario/cadastro.html"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-urgency inline-flex items-center gap-3 text-lg"
+                className="btn-cta-modern group inline-flex"
               >
-                <Shield className="w-5 h-5" />
-                <span className="flex flex-col items-start leading-tight">
-                  <span>Saiba como proteger sua empresa</span>
-                  <span className="text-sm opacity-90">Participe de um webinário agora conosco</span>
-                </span>
-                <ArrowRight className="w-5 h-5" />
+                <Video className="w-5 h-5" />
+                Participar do Webinário Gratuito
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </motion.a>
             </motion.div>
 
@@ -123,7 +124,7 @@ const DiagnosticSection = () => {
 
               <div className="mt-6 p-4 bg-primary/5 rounded-lg border border-primary/20">
                 <p className="text-sm text-foreground/80 text-center">
-                  <strong>Importante:</strong> Quanto antes iniciar, menor o custo de adequação e maior a segurança jurídica.
+                  <strong>Importante:</strong> Participe do webinário e descubra o nível de risco da sua empresa gratuitamente.
                 </p>
               </div>
             </motion.div>

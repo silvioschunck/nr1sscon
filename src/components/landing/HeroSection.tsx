@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { AlertTriangle, Calendar, Shield } from "lucide-react";
+import { AlertTriangle, Calendar, Shield, ArrowRight } from "lucide-react";
 import CountdownTimer from "./CountdownTimer";
 
 const HeroSection = () => {
@@ -21,7 +21,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6 }}
           className="max-w-3xl mx-auto mb-8"
         >
-          <div className="urgency-banner px-4 py-3 rounded-lg flex items-center justify-center gap-2 text-lg md:text-xl font-medium animate-urgency-pulse">
+          <div className="urgency-banner px-4 py-3 rounded-lg flex items-center justify-center gap-2 text-lg md:text-xl font-semibold animate-urgency-pulse">
             <AlertTriangle className="w-5 h-5" />
             <span>A partir de Maio de 2026 todas empresas precisam se adequar às atualizações da NR-1</span>
           </div>
@@ -66,16 +66,14 @@ const HeroSection = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="https://sscon.com.br/links/site"
+            href="https://sscon.com.br/webinario/cadastro.html"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-urgency text-lg flex items-center gap-3"
+            className="btn-cta-modern group"
           >
             <Shield className="w-5 h-5" />
-            <span className="flex flex-col items-start leading-tight">
-              <span>Saiba como proteger sua empresa</span>
-              <span className="text-sm opacity-90">Participe de um webinário agora conosco</span>
-            </span>
+            Participe do Webinário Gratuito
+            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
           </a>
           <a
             href="#sobre"
@@ -106,7 +104,7 @@ const HeroSection = () => {
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
               <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
             </svg>
-            <span>Blindagem jurídica NR-1</span>
+            <span>Diagnóstico preliminar gratuito</span>
           </div>
         </motion.div>
       </div>

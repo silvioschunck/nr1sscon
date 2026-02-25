@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { Volume2, VolumeX, Shield, ArrowRight } from "lucide-react";
+import { Volume2, VolumeX, Video, ArrowRight } from "lucide-react";
 
 const VideoSection = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -58,8 +58,8 @@ const VideoSection = () => {
             Sua Empresa Está Preparada?
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Descubra o que muda com a nova NR-1 e como proteger sua organização
-            das penalidades que se aproximam.
+            Descubra o que muda com a nova NR-1 e como proteger sua organização.
+            Participe do nosso webinário e faça o diagnóstico preliminar da sua empresa.
           </p>
         </motion.div>
 
@@ -89,7 +89,7 @@ const VideoSection = () => {
                 </video>
               )}
 
-              {/* Unmute Overlay - Shows until user clicks */}
+              {/* Unmute Overlay */}
               {!hasInteracted && isVisible && (
                 <div
                   onClick={handleUnmute}
@@ -111,7 +111,7 @@ const VideoSection = () => {
                 </div>
               )}
 
-              {/* Mute/Unmute Toggle Button - Shows after interaction */}
+              {/* Mute/Unmute Toggle */}
               {hasInteracted && (
                 <button
                   onClick={toggleMute}
@@ -128,26 +128,23 @@ const VideoSection = () => {
             </div>
           </div>
 
-          {/* CTA Section Below Video */}
+          {/* CTA Below Video */}
           <div className="mt-6 p-4 md:p-6 bg-primary rounded-xl shadow-lg">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
               <div className="flex items-center gap-3 text-primary-foreground">
-                <Shield className="w-5 h-5 opacity-80" />
+                <Video className="w-5 h-5 opacity-80" />
                 <span className="text-sm md:text-base font-medium">
-                  Proteja sua empresa antes do prazo
+                  Faça o diagnóstico preliminar da sua empresa
                 </span>
               </div>
               <a
-                href="https://sscon.com.br/links/site"
+                href="https://sscon.com.br/webinario/cadastro.html"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-urgency text-sm px-5 py-2.5 flex items-center gap-2 whitespace-nowrap btn-urgency-pulse"
+                className="btn-cta-video group"
               >
-                <span className="flex flex-col items-start leading-tight">
-                  <span>Saiba como proteger sua empresa</span>
-                  <span className="text-xs opacity-90">Participe de um webinário agora conosco</span>
-                </span>
-                <ArrowRight className="w-4 h-4" />
+                Participar do Webinário
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>
             </div>
           </div>

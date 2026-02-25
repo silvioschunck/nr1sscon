@@ -1,4 +1,4 @@
-import { Shield } from "lucide-react";
+import { Video, ArrowRight } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -7,7 +7,6 @@ const Footer = () => {
     <footer className="bg-foreground py-12">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          {/* Logo & Copyright */}
           <div className="flex flex-col items-center md:items-start gap-4">
             <img
               src="https://sscon.com.br/imagens/logosscon.png"
@@ -20,19 +19,16 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* CTA */}
           <div className="flex flex-col items-center md:items-end gap-4">
             <a
-              href="https://sscon.com.br/links/site"
+              href="https://sscon.com.br/webinario/cadastro.html"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary flex items-center gap-2"
+              className="btn-footer-cta group"
             >
-              <Shield className="w-4 h-4" />
-              <span className="flex flex-col items-start leading-tight">
-                <span>Saiba como proteger sua empresa</span>
-                <span className="text-xs opacity-90">Participe de um webinário agora conosco</span>
-              </span>
+              <Video className="w-4 h-4" />
+              Participar do Webinário
+              <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" />
             </a>
             <p className="text-sm text-background/50 text-center md:text-right">
               30+ anos ajudando empresas no Brasil e Mercosul
@@ -40,7 +36,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-background/10">
           <p className="text-xs text-center text-background/40">
             Este site é destinado a fornecer informações sobre a NR-1 e serviços de consultoria.
