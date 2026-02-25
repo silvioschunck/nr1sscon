@@ -59,7 +59,7 @@ const VideoSection = () => {
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Descubra o que muda com a nova NR-1 e como proteger sua organização.
-            Participe do nosso webinário e faça o diagnóstico preliminar da sua empresa.
+            Participe do nosso webinário e proteja sua empresa antes do prazo.
           </p>
         </motion.div>
 
@@ -134,7 +134,7 @@ const VideoSection = () => {
               <div className="flex items-center gap-3 text-primary-foreground">
                 <Video className="w-5 h-5 opacity-80" />
                 <span className="text-sm md:text-base font-medium">
-                  Faça o diagnóstico preliminar da sua empresa
+                  Proteja sua empresa antes do prazo
                 </span>
               </div>
               <a
