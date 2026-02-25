@@ -29,7 +29,10 @@ const Footer = () => {
               className="btn-primary flex items-center gap-2"
             >
               <Shield className="w-4 h-4" />
-              Agendar Diagnóstico
+              <span className="flex flex-col items-start leading-tight">
+                <span>Saiba como proteger sua empresa</span>
+                <span className="text-xs opacity-90">Participe de um webinário agora conosco</span>
+              </span>
             </a>
             <p className="text-sm text-background/50 text-center md:text-right">
               30+ anos ajudando empresas no Brasil e Mercosul
