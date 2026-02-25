@@ -143,7 +143,10 @@ const VideoSection = () => {
                 rel="noopener noreferrer"
                 className="btn-urgency text-sm px-5 py-2.5 flex items-center gap-2 whitespace-nowrap btn-urgency-pulse"
               >
-                Agendar Diagnóstico Agora
+                <span className="flex flex-col items-start leading-tight">
+                  <span>Saiba como proteger sua empresa</span>
+                  <span className="text-xs opacity-90">Participe de um webinário agora conosco</span>
+                </span>
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>

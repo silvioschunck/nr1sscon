@@ -42,7 +42,7 @@ const Header = () => {
           rel="noopener noreferrer"
           className="btn-primary text-sm px-4 py-2"
         >
-          Agendar Agora
+          Saiba como proteger sua empresa
         </motion.a>
       </div>
     </header>

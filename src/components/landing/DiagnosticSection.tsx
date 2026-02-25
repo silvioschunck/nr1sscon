@@ -63,7 +63,10 @@ const DiagnosticSection = () => {
                 className="btn-urgency inline-flex items-center gap-3 text-lg"
               >
                 <Shield className="w-5 h-5" />
-                Agendar Diagnóstico Gratuito
+                <span className="flex flex-col items-start leading-tight">
+                  <span>Saiba como proteger sua empresa</span>
+                  <span className="text-sm opacity-90">Participe de um webinário agora conosco</span>
+                </span>
                 <ArrowRight className="w-5 h-5" />
               </motion.a>
             </motion.div>

@@ -72,7 +72,10 @@ const HeroSection = () => {
             className="btn-urgency text-lg flex items-center gap-3"
           >
             <Shield className="w-5 h-5" />
-            Agendar Diagnóstico Gratuito
+            <span className="flex flex-col items-start leading-tight">
+              <span>Saiba como proteger sua empresa</span>
+              <span className="text-sm opacity-90">Participe de um webinário agora conosco</span>
+            </span>
           </a>
           <a
             href="#sobre"
