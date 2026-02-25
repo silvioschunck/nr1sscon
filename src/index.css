@@ -160,6 +160,67 @@
     animation: none;
   }
 
+  /* Modern CTA Button - Primary action */
+  .btn-cta-modern {
+    @apply inline-flex items-center gap-2.5 font-semibold text-base px-7 py-3.5 rounded-lg transition-all duration-200;
+    background: var(--gradient-urgency);
+    color: hsl(var(--urgency-foreground));
+    box-shadow: 0 2px 8px hsl(0 75% 55% / 0.3), inset 0 1px 0 hsl(0 0% 100% / 0.15);
+    letter-spacing: 0.01em;
+  }
+
+  .btn-cta-modern:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px hsl(0 75% 55% / 0.4), inset 0 1px 0 hsl(0 0% 100% / 0.15);
+  }
+
+  .btn-cta-modern:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 4px hsl(0 75% 55% / 0.3);
+  }
+
+  /* Header CTA */
+  .btn-header-cta {
+    @apply inline-flex items-center gap-2 font-semibold text-sm px-5 py-2.5 rounded-lg transition-all duration-200;
+    background: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+    box-shadow: 0 2px 6px hsl(214 95% 21% / 0.25), inset 0 1px 0 hsl(0 0% 100% / 0.1);
+  }
+
+  .btn-header-cta:hover {
+    background: hsl(var(--primary-dark));
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px hsl(214 95% 21% / 0.35), inset 0 1px 0 hsl(0 0% 100% / 0.1);
+  }
+
+  /* Video section CTA */
+  .btn-cta-video {
+    @apply inline-flex items-center gap-2 font-semibold text-sm px-5 py-2.5 rounded-lg whitespace-nowrap transition-all duration-200;
+    background: hsl(var(--urgency));
+    color: hsl(var(--urgency-foreground));
+    box-shadow: 0 2px 8px hsl(0 75% 55% / 0.35);
+  }
+
+  .btn-cta-video:hover {
+    background: hsl(var(--urgency-dark));
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px hsl(0 75% 55% / 0.45);
+  }
+
+  /* Footer CTA */
+  .btn-footer-cta {
+    @apply inline-flex items-center gap-2 font-semibold text-sm px-5 py-2.5 rounded-lg transition-all duration-200;
+    background: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+    box-shadow: 0 2px 6px hsl(214 95% 21% / 0.3);
+  }
+
+  .btn-footer-cta:hover {
+    background: hsl(var(--primary-light));
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px hsl(214 95% 21% / 0.4);
+  }
+
   @keyframes btn-urgency-pulse {
     0%, 100% { 
       box-shadow: var(--shadow-urgency), 0 0 0 0 hsl(0 75% 55% / 0.4);

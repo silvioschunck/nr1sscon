@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 
 const Header = () => {
   return (
@@ -37,12 +38,13 @@ const Header = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          href="https://sscon.com.br/links/site"
+          href="https://sscon.com.br/webinario/cadastro.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn-primary text-sm px-4 py-2"
+          className="btn-header-cta group"
         >
-          Saiba como proteger sua empresa
+          Participar do Webinário
+          <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" />
         </motion.a>
       </div>
     </header>
