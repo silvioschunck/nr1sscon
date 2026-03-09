@@ -75,10 +75,10 @@ const NR1Cards = () => {
             Informações Essenciais
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Tudo que você precisa saber sobre a NR-1
+            Por que sua empresa precisa agir agora?
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Entenda as mudanças, prazos, riscos e como a SSCON pode proteger sua empresa.
+            Entenda as mudanças, os prazos e os riscos. No <strong className="text-foreground">Webinário Gratuito</strong> explicamos tudo em detalhes e oferecemos um <strong className="text-foreground">Diagnóstico Preliminar Gratuito</strong> para sua empresa.
           </p>
         </motion.div>
 
