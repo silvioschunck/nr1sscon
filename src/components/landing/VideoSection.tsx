@@ -55,11 +55,11 @@ const VideoSection = () => {
             Entenda a Urgência
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Sua Empresa Está Preparada?
+            Entenda o que Muda e Como se Proteger
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Descubra o que muda com a nova NR-1 e como proteger sua organização.
-            Participe do nosso webinário e proteja sua empresa antes do prazo.
+            Assista ao vídeo e descubra o que a nova NR-1 exige da sua empresa.
+            No nosso <strong className="text-foreground">Webinário Gratuito</strong>, você terá acesso a um <strong className="text-foreground">Diagnóstico Preliminar</strong> para avaliar o risco que sua empresa está correndo.
           </p>
         </motion.div>
 

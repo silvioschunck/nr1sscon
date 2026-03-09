@@ -35,12 +35,12 @@ const HeroSection = () => {
           className="text-center mb-10"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Prazo para sua empresa
-            <span className="block text-white/90">ser multada</span>
+            Sua empresa está pronta
+            <span className="block text-white/90">para a nova NR-1?</span>
           </h1>
           <p className="text-lg md:text-xl text-white/85 max-w-2xl mx-auto leading-relaxed">
-            Fiscalizações e penalidades da NR-1 estão próximas.
-            <span className="font-semibold text-white"> O tempo para adequação está acabando. Fique tranquilo, nós vamos te ajudar!</span>
+            O prazo para adequação está acabando e as fiscalizações estão próximas.
+            <span className="font-semibold text-white"> Participe do nosso Webinário Gratuito e faça um Diagnóstico Preliminar para descobrir o nível de risco da sua empresa — sem compromisso.</span>
           </p>
         </motion.div>
 
