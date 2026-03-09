@@ -29,17 +29,17 @@ const DiagnosticSection = () => {
                 Oferta Exclusiva
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 leading-tight">
-                Diagnóstico Preliminar
-                <span className="text-primary"> Gratuito</span>
+                Participe do Webinário e Receba seu
+                <span className="text-primary"> Diagnóstico Gratuito</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                Realizamos um diagnóstico preliminar para apontar o nível de risco
-                da sua empresa neste momento e indicar os próximos passos para a
-                adequação à NR-1.
+                No Webinário Gratuito, você vai entender tudo sobre a NR-1 e ainda
+                receberá um <strong className="text-foreground">Diagnóstico Preliminar</strong> que aponta o nível de risco
+                da sua empresa (Alto, Médio ou Baixo).
               </p>
               <p className="text-base text-muted-foreground mb-6 leading-relaxed">
-                <strong className="text-foreground">Participe do nosso webinário gratuito</strong> e entenda
-                como proteger sua empresa das penalidades que se aproximam.
+                <strong className="text-foreground">Sem compromisso e totalmente gratuito.</strong> Descubra se sua empresa está
+                exposta a multas e o que fazer para se proteger antes do prazo.
               </p>
 
               <ul className="space-y-3 mb-8">
