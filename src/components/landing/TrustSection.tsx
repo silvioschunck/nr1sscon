@@ -71,10 +71,10 @@ const TrustSection = () => {
             Nossa Metodologia
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Fases da Implementação
+            Como Funciona o Processo
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Um processo estruturado e comprovado para garantir a conformidade da sua empresa.
+            No <strong className="text-foreground">Webinário Gratuito</strong>, apresentamos cada fase e você já sai com um <strong className="text-foreground">Diagnóstico Preliminar</strong> do risco da sua empresa.
           </p>
         </motion.div>
 

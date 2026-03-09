@@ -64,11 +64,10 @@ const ExitIntentModal = () => {
 
               <div className="text-center">
                 <h3 className="text-2xl font-bold text-foreground mb-3">
-                  Espere! Sua empresa pode ser multada em breve
+                  Antes de sair, saiba o risco que sua empresa está correndo
                 </h3>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Realizamos um diagnóstico preliminar para apontar o risco da sua
-                  empresa. Participe do nosso webinário gratuito e descubra como se proteger.
+                  Participe do nosso <strong className="text-foreground">Webinário Gratuito</strong> e receba um <strong className="text-foreground">Diagnóstico Preliminar</strong> que identifica o nível de risco da sua empresa — sem compromisso.
                 </p>
 
                 <a

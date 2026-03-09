@@ -124,7 +124,7 @@ const DiagnosticSection = () => {
 
               <div className="mt-6 p-4 bg-primary/5 rounded-lg border border-primary/20">
                 <p className="text-sm text-foreground/80 text-center">
-                  <strong>Importante:</strong> Participe do webinário e descubra o nível de risco da sua empresa gratuitamente.
+                  <strong>Primeiro passo:</strong> Participe do Webinário Gratuito → Receba seu Diagnóstico Preliminar → Descubra o risco da sua empresa.
                 </p>
               </div>
             </motion.div>

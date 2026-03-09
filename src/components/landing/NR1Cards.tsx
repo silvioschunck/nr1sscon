@@ -45,14 +45,14 @@ const cards = [
   },
   {
     icon: Shield,
-    title: "Nossa Solução SSCON",
+    title: "Como a SSCON Pode Ajudar",
     description:
-      "Metodologia completa para adequação e proteção jurídica da sua empresa.",
+      "Participe do Webinário Gratuito para entender nossa metodologia e receba um Diagnóstico Preliminar do risco da sua empresa.",
     details: [
+      "Webinário gratuito e sem compromisso",
+      "Diagnóstico Preliminar do nível de risco",
       "Metodologia DRPS exclusiva",
-      "Relatório executivo com KPIs",
-      "Treinamento de lideranças",
-      "Monitoramento contínuo",
+      "Recomendações práticas de adequação",
     ],
     accent: "primary",
   },

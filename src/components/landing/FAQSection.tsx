@@ -35,9 +35,9 @@ const faqs = [
       "O DRPS é uma metodologia própria da SSCON que mapeia e quantifica os riscos psicossociais presentes na organização. Através de questionários validados, entrevistas e análise documental, geramos um relatório executivo com KPIs, nível de risco e plano de ação personalizado.",
   },
   {
-    question: "Como funciona o diagnóstico gratuito oferecido pela SSCON?",
+    question: "Como funciona o Webinário e o Diagnóstico Preliminar Gratuito?",
     answer:
-      "O diagnóstico preliminar gratuito é uma reunião consultiva onde avaliamos o cenário atual da sua empresa em relação à NR-1. Identificamos o nível de risco (Alto, Médio ou Baixo) e apresentamos as principais ações necessárias para adequação, sem compromisso.",
+      "Ao participar do nosso Webinário Gratuito, você entende tudo sobre a NR-1 e recebe um Diagnóstico Preliminar que avalia o nível de risco da sua empresa (Alto, Médio ou Baixo). Identificamos os principais gaps de conformidade e apresentamos recomendações prioritárias de ação — tudo sem compromisso. É o primeiro passo para proteger sua empresa.",
   },
   {
     question: "A SSCON atende empresas de quais regiões?",
