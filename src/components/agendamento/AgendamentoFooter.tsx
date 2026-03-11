@@ -1,0 +1,52 @@
+import { CalendarCheck, ArrowRight } from "lucide-react";
+
+const AGENDAMENTO_LINK = "https://sscon.com.br/links/agendanr1";
+
+const AgendamentoFooter = () => {
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer className="bg-foreground py-12">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex flex-col items-center md:items-start gap-4">
+            <img
+              src="https://sscon.com.br/imagens/logosscon.png"
+              alt="SSCON Consultoria"
+              className="h-10 w-auto brightness-0 invert"
+            />
+            <p className="text-sm text-background/60">
+              © {currentYear} SSCON Consultoria & Treinamento Empresarial.
+              <br className="md:hidden" /> Todos os direitos reservados.
+            </p>
+          </div>
+
+          <div className="flex flex-col items-center md:items-end gap-4">
+            <a
+              href={AGENDAMENTO_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-footer-cta group"
+            >
+              <CalendarCheck className="w-4 h-4" />
+              Agendar com Especialista
+              <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" />
+            </a>
+            <p className="text-sm text-background/50 text-center md:text-right">
+              30+ anos ajudando empresas no Brasil e Mercosul
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-8 pt-8 border-t border-background/10">
+          <p className="text-xs text-center text-background/40">
+            Este site é destinado a fornecer informações sobre a NR-1 e serviços de consultoria.
+            As informações aqui contidas não constituem aconselhamento jurídico.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default AgendamentoFooter;
