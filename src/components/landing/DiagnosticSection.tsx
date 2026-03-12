@@ -61,7 +61,7 @@ const DiagnosticSection = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 0.6 }}
-                href="https://sscon.com.br/webinario/cadastro.html"
+                href="https://sscon.com.br/webinario/nr1/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-cta-modern group inline-flex"
