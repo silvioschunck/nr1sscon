@@ -38,7 +38,7 @@ const Header = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          href="https://sscon.com.br/webinario/cadastro.html"
+          href="https://sscon.com.br/webinario/nr1/"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-header-cta group"

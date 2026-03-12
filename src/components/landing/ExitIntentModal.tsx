@@ -71,7 +71,7 @@ const ExitIntentModal = () => {
                 </p>
 
                 <a
-                  href="https://sscon.com.br/webinario/cadastro.html"
+                  href="https://sscon.com.br/webinario/nr1/"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={closeModal}

@@ -21,7 +21,7 @@ const Footer = () => {
 
           <div className="flex flex-col items-center md:items-end gap-4">
             <a
-              href="https://sscon.com.br/webinario/cadastro.html"
+              href="https://sscon.com.br/webinario/nr1/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-footer-cta group"

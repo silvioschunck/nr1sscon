@@ -66,7 +66,7 @@ const HeroSection = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="https://sscon.com.br/webinario/cadastro.html"
+            href="https://sscon.com.br/webinario/nr1/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-cta-modern group"
